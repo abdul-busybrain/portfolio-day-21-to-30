@@ -1,0 +1,8 @@
+nav ul {
+  display: flex;
+  gap: 2rem;
+  border: 2px solid green;
+  width: fit-content;
+  list-style-type: none;
+  align-content: center;
+}
