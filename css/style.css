@@ -1,31 +1,34 @@
+*,
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #97be5a;
+  background-color: #eaf6f6;
 }
 
 h1,
 h3 {
-  color: #ee4e4e;
-}
-
-p,
-td,
-th {
-  color: #f6eec9;
+  color: #66bfbf;
 }
 
 nav ul {
   display: flex;
   gap: 2rem;
-  border: 2px solid #799351;
   width: fit-content;
   list-style-type: none;
   align-content: center;
+  justify-content: center;
+  margin: auto;
 }
 
 hr {
   border: none;
-  width: 10%;
   border-top-style: dotted;
-  border-color: #799351;
+  border-color: grey;
   border-width: 5px;
+  width: 5%;
 }
