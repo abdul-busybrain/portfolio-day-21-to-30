@@ -6,29 +6,57 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
+  margin: 0;
+  font-size: 1.7rem;
+  text-align: center;
+  font-family: "Meriweather", serif;
   background-color: #eaf6f6;
 }
 
-h1,
-h3 {
+h1 {
   color: #66bfbf;
+  margin-top: 0;
+  font-family: "Ubuntu", cursive;
 }
 
-nav ul {
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-container {
+  padding-top: 10rem;
+}
+
+.me {
+  border-radius: 50%;
+  height: 10rem;
+}
+
+.top-work {
+}
+
+.author {
   display: flex;
-  gap: 2rem;
-  width: fit-content;
-  list-style-type: none;
-  align-content: center;
   justify-content: center;
-  margin: auto;
+  gap: 2rem;
 }
 
-hr {
-  border: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.work {
+  position: relative;
+  top: -10rem;
 }
