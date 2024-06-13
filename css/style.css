@@ -11,21 +11,52 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 60%;
   font-size: 1.7rem;
   text-align: center;
   font-family: "Meriweather", serif;
   background-color: #eaf6f6;
 }
 
+.header {
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 10rem auto;
+  text-align: left;
+  line-height: 2;
+}
+
 h1 {
-  color: #66bfbf;
-  margin-top: 0;
+  margin-top: 5rem 0 0 0;
   font-family: "Ubuntu", cursive;
+  font-size: 9rem;
+}
+
+em {
+  text-decoration: underline;
+}
+
+.job {
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  color: #66bfbf;
 }
 
 h2 {
+  font-size: 4rem;
   font-family: "Montserrat", sans-serif;
+}
+
+h3,
+a {
+  color: #11999e;
 }
 
 h3 {
@@ -36,27 +67,27 @@ h3 {
   padding-top: 10rem;
 }
 
-.me {
-  border-radius: 50%;
-  height: 10rem;
-}
-
 .top-work {
 }
 
 .author {
   display: flex;
   justify-content: center;
-  gap: 2rem;
 }
 
 .middle-container {
 }
 
 .bottom-container {
+  background-color: #66bfbf;
 }
 
 .work {
-  position: relative;
-  top: -10rem;
+}
+
+.giphy-embed {
+  width: 25%;
+  float: left;
+  clear: right;
+  border: 2px solid red;
 }
