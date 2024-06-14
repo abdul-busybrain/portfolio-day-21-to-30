@@ -19,29 +19,27 @@ body {
   background-color: #eaf6f6;
 }
 
-.header {
-  line-height: 2;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 10rem auto;
-  text-align: left;
-  line-height: 2;
-}
-
 h1 {
   margin-top: 5rem 0 0 0;
   font-family: "Ubuntu", cursive;
-  font-size: 9rem;
+  font-size: 6rem;
 }
 
 em {
   text-decoration: underline;
 }
 
-.job {
-  font-weight: normal;
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+li {
+  text-decoration: none;
 }
 
 h1,
@@ -63,11 +61,33 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 
-.top-container {
-  padding-top: 10rem;
+.me {
+  height: 12rem;
+  height: 12rem;
+  float: right;
+  clear: left;
 }
 
-.top-work {
+.skill-row {
+  width: 50%;
+  margin: 2rem auto;
+  text-align: left;
+  line-height: 2;
+}
+.work {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  clear: right;
+}
+
+.job {
+  font-weight: normal;
+}
+
+.top-container {
+  padding-top: 10rem;
 }
 
 .author {
@@ -82,12 +102,6 @@ h3 {
   background-color: #66bfbf;
 }
 
-.work {
-}
-
-.giphy-embed {
-  width: 25%;
-  float: left;
-  clear: right;
-  border: 2px solid red;
+.skills h2 {
+  margin-top: 4rem;
 }
